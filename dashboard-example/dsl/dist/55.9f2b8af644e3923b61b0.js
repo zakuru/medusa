@@ -1,0 +1,1 @@
+(self.webpackChunkdsl_0_5_0=self.webpackChunkdsl_0_5_0||[]).push([[55],{55:(e,s,l)=>{"use strict";l.r(s),l.d(s,{default:()=>r});var a=l(6461),c=l.n(a),n=l(2939);const r=({children:e,...s})=>c().createElement(n.Carousel,s,e)}}]);

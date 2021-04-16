@@ -1,0 +1,1 @@
+(self.webpackChunk_dashboard_utils=self.webpackChunk_dashboard_utils||[]).push([[4],{4:(s,e,a)=>{"use strict";a.r(e),a.d(e,{sendAnalyticsMessage:()=>l}),console.log("Loading sendAnalytics");const l=s=>{console.log(s)}}}]);

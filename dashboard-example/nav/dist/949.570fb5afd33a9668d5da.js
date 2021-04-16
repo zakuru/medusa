@@ -1,0 +1,1 @@
+(self.webpackChunknav_5_0_0=self.webpackChunknav_5_0_0||[]).push([[949],{42949:(e,n,l)=>{"use strict";l.r(n),l.d(n,{default:()=>c});var t=l(56461),a=l.n(t),u=l(2939);const c=({children:e})=>a().createElement(u.Layout.Footer,null,a().createElement("h2",null,e))}}]);
