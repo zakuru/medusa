@@ -1,6 +1,6 @@
 # Medusa
 
-The Module Federation dashboard takes visualizes the relationships between applications that expose and consume federated modules.
+The Module Federation dashboard takes visualizes the relationships between applications that expose and consume federatd modules.
 
 # What is Medusa??
 
@@ -78,6 +78,6 @@ Neither `filename` nor `dashboardURL` are required. It's up to you how and when 
   -H "Content-type: application/json"
 ```
 
-Metadata isn't required, but it does make the experience better. For example, the `source` URL is used to provide clickable file links in some views. And the `remote` is used when providing information on how to consume the modules.
+Metadata isn't required, but it does make the experience better. For example, the `source` URL is used to provide clickable file links in some views. And the `remote` is used when providing information on how to consume the modules provided by
 
-You should be able to see your application listed. You are _not_ required to have all your federated applicatons listed in the dashboard. But if application A depends on application B, and A is in the dashboard, but B is not, then you will not see references to B because the dashboard doesn't have that data. So you should do your best to get all applications' data into the dashboard.
+You should be able to see your application listed. You are _not_ required to have all your federated applicatons listed in the dashboard. But if application A depends on application B, and A is in the dashboard, but B is not, then you will not see references to B because the dashboard doesn't have that data. So you should do your best to get all the applications data into the dashboard.
