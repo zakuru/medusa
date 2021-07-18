@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { observer } from "mobx-react";
 import { useForm, Controller } from "react-hook-form";
 import {
@@ -227,7 +227,7 @@ const TokenForm = ({ siteSettings }) => {
     </form>
   );
 };
-export function Settings() {
+const Settings = () => {
   const { data } = useQuery(GET_SETTINGS);
   if (!store.isAuthorized) return null;
   return (
@@ -242,6 +242,9 @@ export function Settings() {
       )}
     </Layout>
   );
-}
+};
+const WrappedSettings = observer(Settings);
 
-export default observer(Settings);
+WrappedSettings.getInitialProps = async () => {};
+
+export default WrappedSettings;

@@ -89,5 +89,6 @@ const Application = () => {
     </Layout>
   );
 };
-
-export default observer(Application);
+const WrappedApplication = observer(Application);
+WrappedApplication.getInitialProps = async () => {};
+export default WrappedApplication;
