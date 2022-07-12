@@ -2,7 +2,7 @@
 
 The Module Federation dashboard takes visualizes the relationships between applications that expose and consume federatd modules.
 
-# What is Medusa??
+# What is MedusZa??
 
 <a href="https://youtu.be/JkOvNPMo7Os" target="_blank"><p>click here to watch</p> <img width="50%" src="http://i3.ytimg.com/vi/JkOvNPMo7Os/maxresdefault.jpg"/><a>
 
